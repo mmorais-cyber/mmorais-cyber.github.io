@@ -1,102 +1,95 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    font-size: 1.5vw;
+    font-family: Arial, sans-serif;
+    background-color: #eff2dd;
+    margin: 0;
+    padding: 0;
 }
 
-#logo {
+header > h1 {
+    background-color: #f0d879;
     color: white;
-    margin: 0px;
     padding: 8px;
-    font-family: "Fredoka One", sans-serif;
-    width: 16%;
-    border-radius: 30%;
+    text-align: center;
+    font-size: 27pt;
     text-shadow: 
     1px 1px 0px black,
     -1px 1px 0px black,
     1px -1px 0px black,
     -1px -1px 0px black;
-
 }
 
-ul {
-    margin: 0px;
-}
-
-body > header > nav > ul {
-    list-style: none;
-    text-decoration: none;
-}
-
-#nav-ul{
-    display: flex;
-}
-
-#nav-ul > li {
+header {
+    background-color: #f0d879;
+    color: white;
     padding: 8px;
-    margin: 16px;
+    text-align: center;
 }
 
 
-.navbutton {
-    color: white;
+body header nav a {
+    color: black;
+    margin: 0 10px;
     text-decoration: none;
+    font-family: system-ui, sans-serif;
+    padding: 2.5px;
+    border: 2px solid #eff2dd;
+    border-radius: 5%;
+}
+
+#search-section {
+    text-align: center;
+    margin: 20px;
+    font-size: 10pt;
+    border: none;
+    border-radius: none;
+
+}
+
+#search-bar {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+footer > p {
+    font-size: 10pt;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 15px; /* Spacing between grid items */
+    padding-bottom: 37px;
+   
+}
+
+.grid-item {
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #f0d879;
+    padding: 0;
+    margin: 0;
+    text-align: center;
     padding: 12px;
-    border: 1px solid white;
-    border-radius: 10%;
+    
 }
 
-body>header { 
-    background-color: orange;
-    color: white;
-    display: flex;
-    height: 14vh;
-    align-items: center;
-    justify-content: space-evenly;
-}
+footer nav a {
+    text-decoration:none;
+    font-size: 8pt;
 
-body > main article {
-    width: 80%;
-    margin: auto;
-}
-
-#main-content {
-    display: flex;
-    justify-content: space-around;
-}
-
-#main-content > div {
-    width: 80%;
-}
-
-form {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-img {
-    border-radius: 50%;
-}
-
-body>footer {
-    background-color: orange;
-    text-align: right;
-}
-
-#footer-ul {
-    display: flex;
-    list-style: none;
-}
-
-#footer-ul > div > li {
-    margin-left: 12px;
-
-}
-
-#footer-ul > div > li> a {
-    color: white;
-    text-decoration: none;
 }
