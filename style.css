@@ -57,7 +57,7 @@ footer > p {
 }
 
 .grid-container {
-    display: flex;
+    display: grid;
     justify-content:space-around;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
     gap: 15px; 
