@@ -58,9 +58,10 @@ footer > p {
 
 .grid-container {
     display: grid;
-    justify-content:space-around;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    justify-content:space-evenly;
+    grid-template-columns: repeat(6, minmax(200px,1fr )); 
     gap: 15px; 
+    margin:5px 0px 0px 5px;
     padding-bottom: 37px;
     width: 100%;
     box-sizing: border-box;
