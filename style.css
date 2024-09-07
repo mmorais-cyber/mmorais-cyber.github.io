@@ -79,6 +79,18 @@ footer > p {
     border-radius: 10px;
 }
 
+@media (max-width: 800px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+  }
+
 footer {
     background-color: #f0d879;
     padding: 0;
