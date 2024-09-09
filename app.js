@@ -25,15 +25,14 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=YOUR_API_KEY')
     });
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    const navLinks = document.querySelectorAll("#nav-header a");
-    const currentPage = window.location.pathname;
 
-    navLinks.forEach(link => {
-        if (link.href.includes(currentPage)) {
-            link.classList.add("active");
-        }
-    });
+const navLinks = document.querySelectorAll("#nav-header a");
+const currentPage = window.location.pathname;
+
+navLinks.forEach(link => {
+    if (link.href.includes(currentPage)) {
+        link.classList.add("active");
+    }
 });
 
 
