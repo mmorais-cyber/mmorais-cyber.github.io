@@ -8,7 +8,7 @@ body {
 header > h1 {
     background-color: #f0d879;
     color: white;
-    padding: 4px;
+    padding: 4%;
     text-align: center;
     font-size: 27pt;
     text-shadow: 
@@ -22,7 +22,7 @@ header > h1 {
 header {
     background-color: #f0d879;
     color: white;
-    padding: 8px;
+    padding: 8%;
     text-align: center;
 }
 
@@ -105,7 +105,7 @@ footer > p {
     grid-template-columns: repeat(6, minmax(200px,1fr )); 
     gap: 15px; 
     margin:5px 0px 0px 5px;
-    padding-bottom: 37px;
+    padding-bottom: 37%;
     width: 100%;
     box-sizing: border-box;
    
