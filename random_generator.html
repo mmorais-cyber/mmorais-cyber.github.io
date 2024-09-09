@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieMatch|Random Generator</title>
 </head>
-<body>
+<body class="body1">
     <header>
         <h1>MovieMatch</h1> 
         <nav id="nav-header">
@@ -16,10 +17,28 @@
             <a href="random_generator.html">Random Generator</a id="nav-header">
         </nav>
     </header>
-
     <main>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium repudiandae debitis aliquam magni omnis recusandae sapiente eveniet sequi dolores natus, ipsa, esse est quasi! Quas nihil vero, facilis provident quibusdam dolores, rerum voluptates consectetur, tempora tempore laboriosam. Totam commodi ipsa libero esse molestiae, quo sunt! Voluptatum aperiam nam voluptates dolorem error quae ipsum voluptate rem, animi reiciendis. Nam numquam officia libero optio? Esse pariatur quaerat quibusdam iste ut molestias, dolor deleniti sed temporibus commodi voluptates consequatur et! Quo molestiae alias nobis, modi earum ad accusamus fugiat fugit suscipit voluptatibus reprehenderit molestias dolorem id laudantium ex porro enim, ea in ullam? Beatae minus inventore dolores deleniti, voluptas voluptatum hic! Aperiam mollitia, exercitationem earum quasi dolore amet recusandae suscipit accusantium, eos veritatis assumenda ducimus adipisci repudiandae odio, in deserunt? Eaque quasi ullam corporis numquam, necessitatibus officia voluptas soluta perspiciatis esse modi, sapiente fugiat odit, voluptatibus rerum dolor reprehenderit repudiandae maxime earum dolore natus eligendi harum? Est quam perspiciatis voluptatibus! Aliquid ut quae iste ipsum molestiae accusantium facere omnis veritatis sint officiis odio totam, voluptas repellendus natus ducimus. Sunt reiciendis cum vero neque rerum dolor autem molestiae ratione maxime eveniet quisquam, voluptatem asperiores veniam quibusdam perspiciatis quaerat, similique iste sequi iure aut nemo voluptatum placeat. Praesentium alias dolorem perspiciatis recusandae mollitia molestias similique, tempora, nisi quod tenetur necessitatibus molestiae iure id expedita illum in beatae! Vitae quos fuga numquam, quaerat ipsum placeat enim quasi iusto perspiciatis nesciunt sit vero porro ducimus inventore quas ea provident culpa quam, doloremque consequatur repudiandae animi facere. Repellendus nesciunt praesentium eius porro quos nostrum cumque quod dignissimos iusto error ab esse architecto, rerum officiis quo mollitia. Deleniti ullam accusantium inventore. Alias, excepturi consequuntur, nisi dolore nemo cumque dicta voluptas neque velit omnis accusamus corporis, facere magni laboriosam unde obcaecati mollitia. Quod consequuntur cupiditate sunt voluptates facere architecto nobis laudantium ipsa doloremque, explicabo, quis fugit eveniet. Hic quis fuga, nobis earum, blanditiis repudiandae consectetur ratione quam possimus, corporis debitis facere! Autem reiciendis repudiandae doloribus sequi earum reprehenderit non in, inventore ipsa enim numquam similique sapiente fuga quam ducimus cumque debitis deleniti dignissimos animi. Iure laborum, culpa eligendi molestiae repellendus impedit doloribus ratione facilis architecto itaque. Ullam fugiat iste dolorem autem! Est necessitatibus porro hic quia eaque vero velit aliquam voluptatem, quod omnis autem sit numquam non earum culpa obcaecati inventore quam ratione provident atque. Provident aspernatur molestias vero autem placeat, ipsum ex dolorem. Necessitatibus similique minus nesciunt assumenda atque, voluptatum dicta vero suscipit eaque aliquid facere pariatur maxime magnam odio dignissimos. Ex deleniti eligendi magni, hic nihil ipsa provident, temporibus officiis dolor nostrum nam distinctio assumenda! Dolorem quo porro iure accusamus iusto id cum perspiciatis provident possimus ex dicta, hic nisi aperiam sed, dolores vel quae ut enim tempore velit iste atque consequatur. Est et unde id possimus cupiditate. Eum non earum possimus, praesentium quod quibusdam porro dicta ipsam ab eligendi dolores quam harum nemo maiores cupiditate eaque, placeat quidem rerum quas. Ipsa sunt minima, explicabo consequuntur, delectus fugit ad laboriosam sed mollitia odio sequi illo, corporis temporibus modi.</p>
+        <div id="random_generator">
+            <div class="container">
+                <h2>Feeling Lucky?</h2>
+                <br>
+                <br>
+                <button id="generateBtn">Get Random Movie</button>
+                <br>
+                <br>
+                <br>
+                <!-- This section will display the random movie -->
+                <div id="movieDisplay" class="movie-display">
+                    <p id="movieTitle"></p>
+                    <p id="movieGenre"></p>
+                    <p id="movieRating"></p>
+                    <!-- Image tag for the movie -->
+                    <img id="movieImage" src="images/question_mark.jpeg" alt="Movie Poster" style="max-width: 200px;">
+                </div>
+            </div>
+        </div>
     </main>
+    
 </body>
 <footer>
     <p>Created by Maria Morais | 2024 &copy;</p>

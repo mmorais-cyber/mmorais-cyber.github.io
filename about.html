@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieMatch|Home</title>
@@ -31,7 +32,7 @@
         </p>
         <hr>
         <h3>Become a MovieMatcher!</h3>
-        <form action="" method="">
+        <form action="" method="" id="form-0">
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" name="first_name" required="">
             <br>
@@ -51,7 +52,9 @@
             <label for="favourite_film">Favourite Film:</label>
             <input type="text" id="favourite_film" name="favourite_film" required="">
             <br>
+        </form>
 
+        <form action="" method="" id="form-2">
             <label for="gender">Gender:</label>
             <input type="radio" name="gender" id="Female" value="Female">
             <label for="Female">Female</label>
@@ -60,17 +63,14 @@
             <input type="radio" name="gender" id="Prefer not to say" value="Prefer not to say">
             <label for="Prefer not to say">Prefer not to say</label>
             <br>
-
+            <br>
+            <br>
             <input type="checkbox" id="subscribe" name="subscribe">
             <label for="subscribe">Subscribe to our newsletter!</label>
             <br>
-
             <input type="submit" value="Submit!">
-
         </form>
     </main>
-
-    
 </body>
 <br>
 <footer id="footer-home">
