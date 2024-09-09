@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { title: "Hamilton", genre: "Musical", rating: "8.3", image: "images/Hamilton.jpeg" },
         { title: "Pitch Perfect", genre: "Comedy", rating: "7.1", image: "images/pitch_perfect.jpeg" },
         { title: "Forrest Gump", genre: "Drama", rating: "8.8", image: "images/forrest_gump.jpeg" },
-        { title: "Nativity", genre: "Comedy/Family", rating: "6.4", image: "images/pretty_woman.jpeg" },
         { title: "A Star is Born", genre: "Romance", rating: "7.6", image: "images/star_is_born.jpeg" },
         { title: "Thor", genre: "Superhero", rating: "7", image: "images/thor_ver2.jpeg" },
         { title: "Just Go With It", genre: "Rom-Com", rating: "6.4", image: "images/just_go_with_it.jpeg" },
