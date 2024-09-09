@@ -68,7 +68,7 @@ body header nav a {
 /* For mobile responsiveness */
 @media screen and (max-width: 600px) {
     #nav-header a {
-        display: block; /* Stack links vertically on smaller screens */
+        display: grid; /* Stack links vertically on smaller screens */
         width: 100%; /* Full width */
         text-align: left; /* Align text to the left */
     }
