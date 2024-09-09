@@ -58,6 +58,7 @@ body header nav a {
     transition: background-color 0.3s ease-in-out; /* Smooth hover transition */
 }
 
+
 /* Change color on hover */
 #nav-header a:hover {
     background-color: #575757; /* Slightly lighter background on hover */
