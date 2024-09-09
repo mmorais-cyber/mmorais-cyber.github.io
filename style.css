@@ -37,6 +37,43 @@ body header nav a {
     border-radius: 5%;
 }
 
+/* Style the navigation bar */
+#nav-header {
+    background-color: #333; /* Dark background */
+    padding: 15px; /* Padding around the links */
+    text-align: center; /* Center align all links */
+    position: sticky; /* Make the navbar sticky at the top */
+    top: 0; /* Stick to the top */
+    width: 100%; /* Full width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for effect */
+}
+
+/* Style the links inside the navigation bar */
+#nav-header a {
+    color: white; /* Text color */
+    padding: 14px 20px; /* Padding around each link */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Make the font larger */
+    font-family: 'Arial', sans-serif; /* Change the font */
+    display: inline-block; /* Align links horizontally */
+    transition: background-color 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+/* Change color on hover */
+#nav-header a:hover {
+    background-color: #575757; /* Slightly lighter background on hover */
+    color: #f1f1f1; /* Change text color on hover */
+}
+
+/* For mobile responsiveness */
+@media screen and (max-width: 600px) {
+    #nav-header a {
+        display: block; /* Stack links vertically on smaller screens */
+        width: 100%; /* Full width */
+        text-align: left; /* Align text to the left */
+    }
+}
+
 #search-section {
     text-align: center;
     margin: 20px;
