@@ -36,16 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-const movies = [
-    { title: "Inception", genre: "Sci-Fi", rating: "8.8" },
-    { title: "The Dark Knight", genre: "Action", rating: "9.0" },
-    { title: "Interstellar", genre: "Sci-Fi", rating: "8.6" },
-    { title: "The Lion King", genre: "Animation", rating: "8.5" },
-    { title: "Parasite", genre: "Thriller", rating: "8.6" },
-    { title: "Forrest Gump", genre: "Drama", rating: "8.8" },
-    { title: "The Matrix", genre: "Sci-Fi", rating: "8.7" },
-    // Add more movies as you like!
-];
+
 
 document.addEventListener("DOMContentLoaded", () => {
     // Array of movies with images
