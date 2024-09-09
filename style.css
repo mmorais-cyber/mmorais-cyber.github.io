@@ -60,7 +60,7 @@ body header nav a {
 
 /* Change color on hover */
 #nav-header a:hover {
-    background-color: #f0d879; /* Slightly lighter background on hover */
+    background-color: #575757; /* Slightly lighter background on hover */
     color: #f1f1f1; /* Change text color on hover */
 }
 
