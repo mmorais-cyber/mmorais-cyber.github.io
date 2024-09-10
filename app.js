@@ -18,10 +18,15 @@ document.addEventListener("DOMContentLoaded", () => {
         { title: "Pitch Perfect", genre: "Comedy", rating: "7.1", image: "images/pitch_perfect.jpeg" },
         { title: "Forrest Gump", genre: "Drama", rating: "8.8", image: "images/forrest_gump.jpeg" },
         { title: "A Star is Born", genre: "Romance", rating: "7.6", image: "images/star_is_born.jpeg" },
-        { title: "Thor", genre: "Superhero", rating: "7", image: "images/thor_ver2.jpeg" },
+        { title: "Thor", genre: "Sci-Fi", rating: "7", image: "images/thor_ver2.jpeg" },
         { title: "Just Go With It", genre: "Rom-Com", rating: "6.4", image: "images/just_go_with_it.jpeg" },
         { title: "Little Miss Sunshine", genre: "Comedy", rating: "7.8", image: "images/little_miss_sunshine.jpeg" },
-        { title: "Hall Pass", genre: "Rom-Com", rating: "5.9", image: "images/hall_pass_ver2.jpeg" }
+        { title: "Hall Pass", genre: "Rom-Com", rating: "5.9", image: "images/hall_pass_ver2.jpeg" },
+        { title: "The Amazing Spider-Man 2", genre: "Action/Adventure", rating: "6.6", image: "images/amazing_spiderman_two_ver11.jpeg" },
+        { title: "Anyone But You", genre: "Rom-Com", rating: "6.1", image: "images/anyone_but_you.jpeg" },
+        { title: "Are We There Yet", genre: "Family/Comedy", rating: "4.8", image: "images/are_we_there_yet.jpeg" },
+        { title: "Bohemian Rhapsody", genre: "Documentary", rating: "7.9", image: "images/bohemian_rhapsody_ver2.jpeg" },
+        { title: "Avengers:Endgame", genre: "Sci-Fi", rating: "8.4", image: "images/avenger_endgame_ver2.jpeg" }
     ];
 
     // Function to generate a random movie
