@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { title: "Anyone But You", genre: "Rom-Com", rating: "6.1", image: "images/anyone_but_you.jpeg" },
         { title: "Are We There Yet", genre: "Family/Comedy", rating: "4.8", image: "images/are_we_there_yet.jpeg" },
         { title: "Bohemian Rhapsody", genre: "Documentary", rating: "7.9", image: "images/bohemian_rhapsody_ver2.jpeg" },
-        { title: "Avengers:Endgame", genre: "Sci-Fi", rating: "8.4", image: "images/avenger_endgame_ver2.jpeg" }
+        { title: "Avengers:Endgame", genre: "Sci-Fi", rating: "8.4", image: "images/avengers_endgame_ver2.jpeg" }
     ];
 
     // Function to generate a random movie
